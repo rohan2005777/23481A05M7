@@ -1,0 +1,131 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #000;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: #000;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.navbar {
+  background-color: #fff;
+  color: #000;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  padding: 30px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02), 0 10px 15px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.04), 0 20px 25px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #666;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.card button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card button:hover {
+  background-color: #333;
+}
+
+.options-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.option-btn {
+  padding: 10px 24px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+  border-color: #000;
+}
+
+.option-btn.active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.predefined-msg {
+  padding: 20px;
+  border-left: 4px solid #000;
+  margin-bottom: 30px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #111;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  border-radius: 0 8px 8px 0;
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 30px;
+  text-align: center;
+  background-color: #fff;
+  color: #666;
+  border-top: 1px solid #eaeaea;
+  font-size: 14px;
+}
